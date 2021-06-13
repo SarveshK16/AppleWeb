@@ -1,0 +1,169 @@
+/*
+ Author: Sarvesh Kulkarni
+ Theme: Tech
+ version: 1.0
+*/
+/* css for all*/
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+}
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+.text-right{
+     text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.clearfix{
+    clear: both;
+    float: none;
+}
+a{
+    color: #0984e3;
+    text-decoration: none;
+}
+a:hover{
+    color: #0652DD;
+}
+.btn{
+    padding: 0.1cm;
+    border: none;   
+    font-size: 1rem;
+    border-radius: 7px;
+}
+.btn-primary{
+    background-color: #0984e3 ;
+    color: white;
+    cursor: pointer;
+}
+h2{
+    color: #3498db;
+    font-size: 1.5rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+.float-container{
+    position: relative;
+}
+
+.text-white{
+    color:#f1c40f;
+}
+/* css for navbar section */
+.logo{
+    
+    width: 20%;
+    height: 160px;
+    float: left;
+}
+.btn-primary:hover{
+    background-color:#0652DD;
+    color: white;
+}
+.menu {
+    line-height: 150px;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 5%;
+    font-weight: bold;
+}
+/* css for product search section*/
+.product-search{
+    background-image: url(../Images/apple_iphone-12-spring21_durable-design-display_us_04202021.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10% 0;
+}
+.product-search input[type="search"]{
+    width: 50%;
+    padding: 0.7%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 7px;
+}
+/* css for categories section*/
+.categories{
+    padding: 4% 0;
+}
+.box-3{
+    
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+.float-text-iphone{
+    position: absolute;
+    bottom: 50px;
+    left: 36%;
+}
+.float-text-ipad{
+    position:absolute ;
+    bottom: 50px;
+    left: 42%;
+}
+.float-text-macbook{
+    position: absolute;
+    bottom: 50px;
+    left: 34%;
+}
+/* css for trending*/
+.trending{
+    background-color: #ececec;
+    padding: 4% 0;
+}
+.trending-sec{
+    
+    width: 45%;
+    margin: 1%;
+    float: left;
+    padding: 1%;
+    background-color: white;
+    border-radius: 15px;
+}
+.trending-img{
+    width: 60%;
+    float: left;
+}
+.trending-description{
+    width: 25%;
+    float: left;
+    margin-right: 10%;
+    margin-top: 1.7%;
+}
+.price{
+    font-size: 1.1rem;
+    margin: 11% 0;
+}
+.desc{
+    font-size: 0.9rem;
+    color:#2c3e50;
+}
+/* css for social*/
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
